@@ -4,33 +4,35 @@ public class Usuario {
     private String nomUsuario;
     private String apeUsuario;
     private String contraUsuario;
-
-    public Animal(int idUsueario, int ccUsuario, String nomUsuario, 
-					String apeUsuario, String contraUsuario) {
+    
+    public Usuario() {
+    }    
+    
+    public Usuario(int idUsueario, int ccUsuario, String nomUsuario, 
+			String apeUsuario, String contraUsuario) {
         this.idUsueario = idUsueario;
-		this.ccUsuario = ccUsuario;
-		this.nomUsuario = nomUsuario;
+	this.ccUsuario = ccUsuario;
+	this.nomUsuario = nomUsuario;
         this.apeUsuario = apeUsuario;
         this.contraUsuario = contraUsuario;
     }
 
-	public int getIdUsuario(){
-		return idUsueario;
+    public int getIdUsuario(){
+	return idUsueario;
 		
-	}
+    }
 	
-	public void setIdUsuario(int idUsueario){
-		this.idUsueario = idUsueario;
-	}
+    public void setIdUsuario(int idUsueario){
+	this.idUsueario = idUsueario;
+    }
 	
-	public int getCcUsuario(){
-		return ccUsuario;
-		
-	}
+    public int getCcUsuario(){
+	return ccUsuario;
+    }
 	
-	public void setCcUsuario(int ccUsuario){
-		this.ccUsuario = ccUsuario;
-	}
+    public void setCcUsuario(int ccUsuario){
+	this.ccUsuario = ccUsuario;
+    }
 	
     public String getNomUsuario() {
         return nomUsuario;
