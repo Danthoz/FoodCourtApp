@@ -1,6 +1,6 @@
 public class Usuario {
-	private int idUsueario;
-	private int ccUsuario;
+    private int idUsueario;
+    private int ccUsuario;
     private String nomUsuario;
     private String apeUsuario;
     private String contraUsuario;
