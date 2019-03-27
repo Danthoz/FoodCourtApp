@@ -1,0 +1,63 @@
+<?php
+class Administrador extends Usuario {
+	
+	
+	public function crearCComercial(){
+	
+	}
+	public function editarCComercial(){
+
+    }
+	public function eliminarCComercial(){
+		
+    }
+	
+	
+	public function crearTienda(){
+	
+	}
+	public function editarTienda(){
+
+    }
+	public function eliminarTienda(){
+		
+    }
+	
+	
+	public function crearPlato(){
+	
+	}
+	public function editarPlato(){
+
+    }
+	public function eliminarPlato(){
+		
+    }
+	
+	
+	public function crearProducto(){
+	
+	}
+	public function editarProdcuto(){
+
+    }
+	public function eliminarProducto(){
+		
+    }
+	
+	
+	public function crearAdicional(){
+	
+	}
+	public function editarAdicional(){
+
+    }
+	public function eliminarAdicional(){
+		
+    }
+	
+	
+	
+
+}
+?>
