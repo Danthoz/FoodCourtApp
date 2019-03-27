@@ -1,0 +1,23 @@
+<?php
+class Cliente extends Usuario {
+	public $listaCComerciales;
+
+	public function getListaCComerciales(){
+		return $this->listaCComerciales;
+	}
+	
+	
+	public function hacerPerdido(){
+	
+	}
+	
+	public function pagarPedido(){
+
+    }
+	
+	public function eliminarPedido(){
+
+    }
+
+}
+?>
