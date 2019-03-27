@@ -1,0 +1,41 @@
+<?php
+class CarroCompra {
+	private $idCarro;
+	private $subTotal;
+	private $listaDeCompra;
+
+	public function getIdCarro(){
+		return $this->idCarro;
+	}
+	
+	private function setIdCarro($idCarro) {
+    $this->idCarro = $idCarro;
+	}
+	
+	public function getSubTotal(){
+		return $this->subTotal;
+	}
+	
+	private function setSubTotal($subTotal) {
+    $this->subTotal = $subTotal;
+	}
+	
+	public function getListaDeCompra(){
+		return $this->listaDeCompra;
+	}
+	
+	
+	public function añadirProducto(){
+	
+	}
+	
+	public function quitarProducto(){
+
+    }
+	
+	public function obtenerSubTotal(){
+
+    }
+
+}
+?>
